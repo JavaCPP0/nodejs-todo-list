@@ -11,7 +11,7 @@ const router = express.Router();
 // 3. 'value' 데이터는 최소1글자 이상이어야한다.
 // 4. 'value' 데이터는 최대 50글자 이하여야 한다.
 // 5.유효성 검사에 실패했을 대, 에러가 발생해야한다.
-
+//깃테스트 주석
 const createdTodoSchema = joi.object({
     value: joi.string().min(1).max(50).required(),
 });
